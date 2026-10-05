@@ -1,0 +1,80 @@
+# PS5 UPDATE BLOCKLIST - SUPER VITAMINADA
+# Generada: 2026-10-05
+# Formato: una entrada por dominio, apto para Pi-hole Adlists/Gravity.
+#
+# Objetivo: impedir que PS5 consulte/descargue actualizaciones del sistema
+# reduciendo el riesgo de romper innecesariamente PSN.
+#
+# Fuentes contrastadas:
+# - b0bfranklin/Playstation_Blocklists
+# - cjrb007/ps5-dns-block
+# - dominios regionales coincidentes con configuraciones públicas de Al-Azif
+#
+# Se excluyen deliberadamente dominios demasiado amplios o con alto riesgo
+# de efectos colaterales, por ejemplo:
+#   a192.d.akamai.net
+#   playstation.sony.akadns.net
+#   playstation.net (wildcard)
+#   playstation.com (wildcard)
+#   us.np.stun.playstation.net
+#   APIs/telemetría/manuales no necesarios para bloquear firmware
+#
+update.playstation.net
+update.net.playstation.net
+oss.dl.playstation.net
+dau01.ps5.update.playstation.net
+dbr01.ps5.update.playstation.net
+dcn01.ps5.update.playstation.net
+deu01.ps5.update.playstation.net
+dhk01.ps5.update.playstation.net
+djp01.ps5.update.playstation.net
+dkr01.ps5.update.playstation.net
+dmx01.ps5.update.playstation.net
+dru01.ps5.update.playstation.net
+dsa01.ps5.update.playstation.net
+dtw01.ps5.update.playstation.net
+duk01.ps5.update.playstation.net
+dus01.ps5.update.playstation.net
+fau01.ps5.update.playstation.net
+fbr01.ps5.update.playstation.net
+fcn01.ps5.update.playstation.net
+feu01.ps5.update.playstation.net
+fhk01.ps5.update.playstation.net
+fjp01.ps5.update.playstation.net
+fkr01.ps5.update.playstation.net
+fmx01.ps5.update.playstation.net
+fru01.ps5.update.playstation.net
+fsa01.ps5.update.playstation.net
+ftw01.ps5.update.playstation.net
+fuk01.ps5.update.playstation.net
+fus01.ps5.update.playstation.net
+hau01.ps5.update.playstation.net
+hbr01.ps5.update.playstation.net
+hcn01.ps5.update.playstation.net
+heu01.ps5.update.playstation.net
+hhk01.ps5.update.playstation.net
+hjp01.ps5.update.playstation.net
+hkr01.ps5.update.playstation.net
+hmx01.ps5.update.playstation.net
+hru01.ps5.update.playstation.net
+hsa01.ps5.update.playstation.net
+htw01.ps5.update.playstation.net
+huk01.ps5.update.playstation.net
+hus01.ps5.update.playstation.net
+gs2.ww.prod.dl.playstation.net
+gs2.ww.prod.dl.playstation.net.edgesuite.net
+gst.prod.dl.playstation.net
+gst.prod.dl.playstation.net.edgesuite.net
+sgst.prod.dl.playstation.net
+sgst.prod.dl.playstation.net.edgesuite.net
+gs.ww.np.dl.playstation.net
+gs.ww.np.dl.playstation.net.edgesuite.net
+b0.ww.np.dl.playstation.net
+b0.ww.np.dl.playstation.net.edgesuite.net
+a01.cdn.update.playstation.org.edgesuite.net
+al02.cdn.update.playstation.net
+psn-rsc.prod.dl.playstation.net
+apollo.dl.playstation.net
+apollo2.dl.playstation.net
+fswitch.dl.playstation.net
+crepo.ww.dl.playstation.net
